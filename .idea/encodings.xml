@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/spring-boot-2-hexagonal-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-2-hexagonal-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-2-hexagonal-integration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-2-hexagonal-rest/src/main/java" charset="UTF-8" />
+  </component>
+</project>
