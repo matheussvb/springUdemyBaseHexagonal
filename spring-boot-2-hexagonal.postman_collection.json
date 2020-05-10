@@ -1,0 +1,145 @@
+{
+	"id": "f51e334a-c33a-4d54-b56f-b49f325a44a6",
+	"name": "spring-boot-2-hexagonal",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"489b41f3-148b-410f-9f29-8bb27102dbad",
+		"3d71fee7-f3ff-4a32-8186-e944228b81a2",
+		"c8e548e0-f242-4898-b4c1-7a57a6096ecf",
+		"ffcf561d-f1cc-4008-8644-a3f3504a0bfb",
+		"887d9f33-adea-4060-82ca-6a055729bf2d"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "3d71fee7-f3ff-4a32-8186-e944228b81a2",
+			"name": "GET",
+			"url": "http://localhost:8080/user/",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "0",
+					"equals": true,
+					"description": null,
+					"enabled": false
+				},
+				{
+					"key": "size",
+					"value": "3",
+					"equals": true,
+					"description": null,
+					"enabled": false
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "489b41f3-148b-410f-9f29-8bb27102dbad",
+			"name": "GET PAGINACAO",
+			"url": "http://localhost:8080/user/paginacao?page=0&size=2",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "0",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "2",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "887d9f33-adea-4060-82ca-6a055729bf2d",
+			"name": "DELETAR USER",
+			"url": "http://localhost:8080/user/1",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "c8e548e0-f242-4898-b4c1-7a57a6096ecf",
+			"name": "http://localhost:8080/user/",
+			"url": "http://localhost:8080/user/",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\r\n    \"name\": \"Matheus1000\",\r\n    \"email\": \"matheus111111111.svb@hotmail.com\",\r\n    \"password\": \"matheus100\"\r\n}",
+			"pathVariables": {}
+		},
+		{
+			"id": "ffcf561d-f1cc-4008-8644-a3f3504a0bfb",
+			"name": "PUT USER",
+			"url": "http://localhost:8080/user/1",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"name\": \"MatheusAlterado\",\n\t\"email\": \"emailAlterado\",\n\t\"password\": \"senhaAlterada\"\n}",
+			"pathVariables": {}
+		}
+	]
+}

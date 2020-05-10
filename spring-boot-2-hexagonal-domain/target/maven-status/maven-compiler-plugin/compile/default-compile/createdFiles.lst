@@ -1,0 +1,5 @@
+br\com\matheussvb\service\UserAdapter.class
+br\com\matheussvb\port\driven\UserJpaPort.class
+br\com\matheussvb\model\user\UserDTO.class
+br\com\matheussvb\model\user\UserDTO$UserDTOBuilder.class
+br\com\matheussvb\port\driver\UserPort.class

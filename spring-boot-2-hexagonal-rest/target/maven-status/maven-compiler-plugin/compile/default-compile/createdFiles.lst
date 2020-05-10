@@ -1,0 +1,6 @@
+br\com\matheussvb\controller\UserController.class
+br\com\matheussvb\model\user\UserResponse$UserResponseBuilder.class
+br\com\matheussvb\exception\ControllerAdvice.class
+br\com\matheussvb\exception\ApiErrors.class
+br\com\matheussvb\model\RestResponse.class
+br\com\matheussvb\model\user\UserResponse.class

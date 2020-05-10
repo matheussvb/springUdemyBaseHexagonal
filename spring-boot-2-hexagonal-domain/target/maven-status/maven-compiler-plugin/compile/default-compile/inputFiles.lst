@@ -1,0 +1,4 @@
+C:\Users\mathe\IdeaProjects\spring-boot-2-hexagonal\spring-boot-2-hexagonal-domain\src\main\java\br\com\matheussvb\model\user\UserDTO.java
+C:\Users\mathe\IdeaProjects\spring-boot-2-hexagonal\spring-boot-2-hexagonal-domain\src\main\java\br\com\matheussvb\port\driver\UserPort.java
+C:\Users\mathe\IdeaProjects\spring-boot-2-hexagonal\spring-boot-2-hexagonal-domain\src\main\java\br\com\matheussvb\port\driven\UserJpaPort.java
+C:\Users\mathe\IdeaProjects\spring-boot-2-hexagonal\spring-boot-2-hexagonal-domain\src\main\java\br\com\matheussvb\service\UserAdapter.java

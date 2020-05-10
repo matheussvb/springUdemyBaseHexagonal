@@ -1,0 +1,4 @@
+br\com\matheussvb\adapter\UserJpaAdapter$1.class
+br\com\matheussvb\adapter\UserJpaAdapter.class
+br\com\matheussvb\entity\UserEntity.class
+br\com\matheussvb\repository\UserRepository.class
