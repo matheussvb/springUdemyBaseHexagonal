@@ -30,7 +30,9 @@
     </properties>
 
     <dependencyManagement>
-        <!--INTERNAL-->
+        <!--INTERNAL
+		https://www.udemy.com/course/spring-boot-2-oauth2-e-gitlab-ci-com-dpltravis-aws/
+		-->
         <dependencies>
             <dependency>
                 <groupId>br.com.matheussvb</groupId>
